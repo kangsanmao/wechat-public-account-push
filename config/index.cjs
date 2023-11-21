@@ -27,7 +27,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1992', date: '05-09',
+          type: '*生日', name: 'xun', year: '1992', date: '05-09',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2023', date: '10-28',
