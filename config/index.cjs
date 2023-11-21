@@ -18,7 +18,7 @@ const USER_CONFIG = {
 
   USERS: [
     {
-      // 想要发送的人的名字
+      // 想要发送的人
       name: '珣珣',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oi9ZL61KG9hXOpor2Baqruc4Z13k',
