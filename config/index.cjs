@@ -41,6 +41,30 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2023-10-28' },
       ],
     },
+     {
+      // 想要发送的人
+      name: 'kangsan',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oi9ZL61KG9hXOpor2Baqruc4Z13k',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'rBk0FVjFamZ36pfYA00X3fWcgjlS7Tfqge5Kx8eLk2o',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '狗子', year: '1992', date: '12-25',
+        },
+        {
+          type: '节日', name: '结婚纪念日', year: '2023', date: '10-28',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-05-08' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-10-28' },
+      ],
+    },
   ],
 
 
